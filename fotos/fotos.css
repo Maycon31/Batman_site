@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    list-style:  none;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    font-size: 19px;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+
+#logo {
+    width: 150px;
+    height: 90px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #d21617;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }
+
+ .cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+ }
+ .card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam thmor pro', sans-serif;
+
+ }
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121730/batman-2022-tudo-o-que-precisa-saber-antes-de-ver-o-filme.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://pipocamoderna.com.br/storage/2019/10/warnerbros_thedarkknightrises_annehathaway_051517_1800x1200-1800x1200.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://2.bp.blogspot.com/-N9DtMsBCAwI/XbtdLT8foBI/AAAAAAACzVU/bTyfrBq-ApwVG8DUfRmWYVlvKyzXJ-08wCK4BGAYYCw/s1600/jeffreywrights.jpg');
+}
+
+.banner-4{
+    background-image: url('https://static.wikia.nocookie.net/the-batman-universe/images/2/29/Riddler_promo_-_The_Batman.jpg/revision/latest?cb=20220209175817');
+}
+
+.banner-5{
+    background-image: url('https://pbs.twimg.com/media/FNbgGHqWQAg0aKw?format=jpg&name=900x900');
+}
+
+.banner-6{
+    background-image: url('https://static.wikia.nocookie.net/villains/images/9/96/Carmine_Falcone_HD.webp/revision/latest?cb=20220327173936');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ 
